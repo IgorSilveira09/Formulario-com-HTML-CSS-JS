@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="PT-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>formulario de contato</title>
+    <title>Pagina de login</title>
 </head>
 <style>
     * {
@@ -16,7 +16,9 @@
 
     body {
 
-        background: url("imagens/fundo.svg");
+        background: url("imagens/fundo.svg") no-repeat;
+        background-size: 100%;
+
 
     }
 
@@ -30,6 +32,7 @@
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
+        border-radius: 20px;
 
     }
 
@@ -48,8 +51,8 @@
         border: 1px solid #ccc;
         padding-left: 10px;
         margin: 10px 0;
-        border-radius:20px;
-        
+        border-radius: 20px;
+
     }
 
     form input[type=submit] {
@@ -88,9 +91,9 @@
 
     <form>
 
-        <h3>Entrar em contato</h3>
+        <h3>Faça seu login</h3>
         <input id="email" type="text" name="email" placeholder="Seu email..." />
-        <input id="password" type="password" name="senha" placeholder="Sua senha" <img src="imagens/olho.svg"/>
+        <input id="password" type="password" name="senha" placeholder="Sua senha" />
         <input type="submit" name="acao" value="Enviar" />
 
     </form>
